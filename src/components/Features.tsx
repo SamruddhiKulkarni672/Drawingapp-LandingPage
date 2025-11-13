@@ -108,9 +108,9 @@ const Features = () => {
               {/* Special animation - Auto Video Recording */}
               {feature.title === "Auto Video Recording" && (
                 <div className="absolute top-4 right-4 w-16 h-16 opacity-20">
-                  <div className="w-full h-full border-2 border-pink-400 rounded-full animate-ping"></div>
-                  <div className="absolute top-2 left-2 w-12 h-12 bg-pink-400/20 rounded-full animate-pulse"></div>
-                  <div className="absolute top-4 left-4 w-8 h-8 bg-pink-400/40 rounded-full animate-bounce"></div>
+                  <div className="w-full h-full border-2 border-pink-200 rounded-full animate-ping"></div>
+                  <div className="absolute top-2 left-2 w-12 h-12 bg-pink-400/40 rounded-full animate-pulse"></div>
+                  <div className="absolute top-4 left-4 w-8 h-8 bg-pink-400/80 rounded-full animate-bounce"></div>
                 </div>
               )}
 

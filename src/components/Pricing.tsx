@@ -56,7 +56,10 @@ const Pricing = () => {
               </div>
               <p className="text-gray-400 mb-6">No cost, ever</p>
 
-              <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg font-semibold shadow-lg hover:opacity-90 transition">
+              <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg font-semibold shadow-lg hover:opacity-90 transition"
+              onClick={() =>
+                            window.open("https://tulikadigitaldrawingapp.vercel.app/", "_blank")
+                        }>
                 Get Started Now
               </button>
             </div>

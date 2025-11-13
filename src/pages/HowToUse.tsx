@@ -171,7 +171,7 @@ import React from 'react'
 function HowToUse() {
   return (
     <div>
-      
+       1
     </div>
   )
 }
