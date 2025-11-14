@@ -1,10 +1,20 @@
 import { Heart, Share, Download } from "lucide-react";
 import featuredImage from "../assets/featured-artworks.png";
+import art1 from "../assets/art1.png";
+import art2 from "../assets/art2.png";
+import art3 from "../assets/art3.png";
+import art4 from "../assets/art4.png";
+import art5 from "../assets/art5.png";
+
+
+
+
 
 const FeaturedArtworks = () => {
   const artworks = [
     {
       id: 1,
+      art: art1,
       title: "Abstract Landscape",
       artist: "Sarah Chen",
       likes: 1240,
@@ -13,6 +23,7 @@ const FeaturedArtworks = () => {
     },
     {
       id: 2,
+       art: featuredImage,
       title: "Character Design",
       artist: "Mike Rodriguez",
       likes: 856,
@@ -21,6 +32,7 @@ const FeaturedArtworks = () => {
     },
     {
       id: 3,
+       art: art2,
       title: "Nature Study",
       artist: "Emma Thompson",
       likes: 2103,
@@ -29,6 +41,7 @@ const FeaturedArtworks = () => {
     },
     {
       id: 4,
+       art: art4,
       title: "Urban Sketch",
       artist: "Alex Park",
       likes: 674,
@@ -37,6 +50,7 @@ const FeaturedArtworks = () => {
     },
     {
       id: 5,
+       art: art3,
       title: "Fantasy Portrait",
       artist: "Lisa Wang",
       likes: 1567,
@@ -45,6 +59,7 @@ const FeaturedArtworks = () => {
     },
     {
       id: 6,
+       art: art5,
       title: "Minimalist Design",
       artist: "David Kim",
       likes: 923,
@@ -82,7 +97,7 @@ const FeaturedArtworks = () => {
               {/* Image with Overlay */}
               <div className="relative aspect-square overflow-hidden">
                 <img
-                  src={featuredImage}
+                  src={artwork.art}
                   alt={artwork.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
